@@ -1,8 +1,3 @@
-" File: lightline-gruvbox.vim
-" Description: lightline.vim theme for gruvbox colorscheme
-" Author: shinchu <shinchu@outlook.com>
-" Source: https://github.com/shinchu/lightline-gruvbox
-
 let s:is_dark=(&background == 'dark')
 
 if !exists('g:gruvbox_contrast_dark')
@@ -155,4 +150,4 @@ endif
 
 let s:p.tabline.error = [ [ 'black', synIDattr(synIDtrans(hlID('Error')), 'fg'), 'black', 196, 'bold' ] ]
 let s:p.tabline.warning = [ [ 'black', synIDattr(synIDtrans(hlID('Warnings')), 'fg'), 'black', 220, 'bold' ] ]
-let g:lightline#colorscheme#gruvbox#palette = s:p
+let g:lightline#colorscheme#gruvbox8#palette = s:p
